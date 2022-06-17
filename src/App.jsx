@@ -16,6 +16,8 @@ const App = () => {
       <ColorfulMessage color="blue"> お元気ですか？ </ColorfulMessage>
       <ColorfulMessage color="pink"> 元気です </ColorfulMessage>
       <button onClick={onClickCountUp}>カウントアップ</button>
+      {/* ↓関数を定義しないで書くこともできる */}
+      {/* <button onClick={() => setNum(num + 1)}>カウントアップ</button> */}
       <p> {num} </p>
     </>
   );
