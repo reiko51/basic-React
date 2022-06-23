@@ -1,7 +1,8 @@
 import React from "react";
 
 // propsの定義の仕方はReactのバージョンによって違うかも
-const ColorfulMessage = (props) => {
+// const ColorfulMessage = (props) => {
+export const ColorfulMessage = (props) => {
   //分割代入
   const { color, children } = props;
   const contentStyle = {
@@ -20,4 +21,4 @@ const ColorfulMessage = (props) => {
   return <p style={contentStyle}> {children} </p>;
 };
 
-export default ColorfulMessage;
+// export default ColorfulMessage;
